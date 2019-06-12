@@ -28,10 +28,6 @@ header ul {
   margin-top: 7px;
 }
 
-li {
-  text-decoration: none;
-}
-
 .left a {
   text-decoration: none;
   color: #000;
@@ -42,6 +38,7 @@ li {
 }
 
 .right {
+  display: inline-block;
   float: right;
   margin-right: 13px;
 }
@@ -96,4 +93,85 @@ section {
   width: 272px;
   margin-bottom: 20px;
 
+}
+
+.search-box {
+  height: 45px;
+  width: 31%;
+  min-width: 450px;
+  border: 1px solid lightgray;
+  border-radius: 21px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  font-size: 14px;
+  outline: none;
+}
+
+.google-mic {
+  position: relative;
+  right: 35px;
+  width: 14px;
+  vertical-align: middle;
+}
+
+.search-button {
+  color: #5F6368;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 11px 4px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  border: 1px solid #5F6368;
+}
+
+/***** Footer Section ******/
+
+footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.left-footer {
+  display: inline-block;
+  margin-left: 13px;
+}
+
+.left-footer a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #5F6368;
+  line-height: 48px;
+}
+
+.right-footer {
+  display: inline-block;
+  float: right;
+  margin-right: 13px;
+}
+
+.right-footer a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #5F6368;
+  line-height: 48px;
+}
+
+#ad:hover,
+#bu:hover,
+#ho:hover,
+#pr:hover,
+#te:hover,
+#se:hover {
+  text-decoration: underline;
 }
