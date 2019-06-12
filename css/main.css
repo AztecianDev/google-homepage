@@ -6,6 +6,8 @@
   font-size: small;
 }
 
+/***** Header/Navigation Section ******/
+
 body {
   background-color: #fff;
 }
@@ -26,6 +28,10 @@ header ul {
   margin-top: 7px;
 }
 
+li {
+  text-decoration: none;
+}
+
 .left a {
   text-decoration: none;
   color: #000;
@@ -36,13 +42,11 @@ header ul {
 }
 
 .right {
-  display: inline-block;
   float: right;
   margin-right: 13px;
 }
 
 .right a {
-
   margin-right: 15px;
   text-decoration: none;
   color: #000;
@@ -50,12 +54,13 @@ header ul {
   opacity: 0.75;
 }
 
+
+
 .btn {
-  border: 1px solid #4285f4;
+  border: 1px solid #4386fb;
   font-weight: bold;
   outline: none;
-  background: #4387fd;
-  display: inline-block;
+  background-color: #4583ee;
   padding: 0 12px;
   line-height: 28px;
   border-radius: 2px;
@@ -66,5 +71,29 @@ header ul {
   width: 24px;
   vertical-align: middle;
   opacity: 0.65;
+
+}
+
+
+#a1:hover,
+#s1:hover,
+#g1:hover,
+#i1:hover {
+  text-decoration: underline;
+}
+
+
+/***** Main Section ******/
+
+section {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.main-logo {
+  height: 92px;
+  width: 272px;
+  margin-bottom: 20px;
 
 }
