@@ -2,36 +2,52 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
 }
 
 body {
-  font-family: arial, sans-serif;
   background-color: #fff;
 }
 
-#banner {
-  position: fixed;
-  top: 16px;
-  width: 100%;
-  min-width: 980px;
-  font-size: 13px;
-}
-
-.menu {
+header {
   display: block;
+  height: 50px;
+  width: 100%;
 }
 
-li {
-  cursor: pointer;
-  display: inline;
-  text-align: center;
+header ul {
+  margin: 23px;
 }
 
-a {
+.left {
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.left a {
   text-decoration: none;
   color: #000;
   opacity: 0.75;
-  padding-left: 15px;
+  vertical-align: middle;
+  margin-left: 13px;
+
+}
+
+.right {
+  display: inline-block;
+  float: right;
+  margin-right: 13px;
+}
+
+.right a {
+
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+  vertical-align: middle;
+  opacity: 0.75;
 }
 
 .btn {
@@ -44,4 +60,11 @@ a {
   line-height: 28px;
   border-radius: 2px;
   color: white;
+}
+
+.google-app {
+  width: 24px;
+  vertical-align: middle;
+  opacity: 0.65;
+
 }
